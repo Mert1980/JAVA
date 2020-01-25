@@ -8,8 +8,11 @@ public class Hello {
 //        int myTotal = myFirstNumber+mySecondNumber+myThirdNumber;
 //        int myLastOne = 1000 - myTotal;
 //        System.out.println(myLastOne);
-        int number = 2;
-        System.out.println((number++ * 2));
-        System.out.println(++number);
+//        int number = 2;
+//        System.out.println((number++ * 2));
+//        System.out.println(++number);
+
+//        char c = 'a';
+//        System.out.println(c+0b1101);
     }
 }
