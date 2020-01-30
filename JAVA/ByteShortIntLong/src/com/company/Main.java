@@ -14,6 +14,13 @@ public class Main {
         System.out.println("Busted MAX value = " + (myMaxIntValue - 1)); // underflow
 
         int myMaxIntTest = 2_147_483_647;
+
+        int myMinByteValue = Byte.MIN_VALUE;
+        int myMaxByteValue = Byte.MAX_VALUE;
+        System.out.println("Byte Minimum Value = " + myMinByteValue);
+        System.out.println("Byte Maximum Value = " + myMaxByteValue);
+
+
     }
 }
 
