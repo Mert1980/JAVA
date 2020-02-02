@@ -39,6 +39,16 @@ public class Main {
         byte myNewByteValue = (byte) (myMinByteValue / 2); // casting to byte
         short myNewShortValue = (short) (myMinShortValue / 2); // casting to short
 
+        // CHALLENGE
+        byte myNewByte = 10;
+        short myNewShort = 20;
+        int myNewInt = 50;
+        long longTotal = 50000L + ((myNewByte + myNewShort + myNewInt) * 10L);
+        System.out.println(longTotal);
+        short shortTotal = (short) (1000 + (10 * (myNewByte + myNewShort + myNewInt)));
+        System.out.println(shortTotal);
+
+
     }
 }
 
