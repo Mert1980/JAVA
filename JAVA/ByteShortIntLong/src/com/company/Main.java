@@ -33,6 +33,12 @@ public class Main {
 
         long bigLongLiteralValue = 2147483647L; // We put L for long types
 
+        int myTotal = (myMinIntValue / 2);
+
+        // JAVA treats the type of value btwn paranthesis as an INT by default
+        byte myNewByteValue = (byte) (myMinByteValue / 2); // casting to byte
+        short myNewShortValue = (short) (myMinShortValue / 2); // casting to short
+
     }
 }
 
